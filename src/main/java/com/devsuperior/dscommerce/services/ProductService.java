@@ -46,12 +46,19 @@ public class ProductService {
         return new ProductDTO(product);
     }
 
+    @Transactional
+    public void delete(Long id){
+        productRepository.deleteById(id);
+    }
+
     private void copyDTOtoProduct(ProductDTO productDTO, Product product){
         product.setName(productDTO.getName());
         product.setDescription(productDTO.getDescription());
         product.setPrice(productDTO.getPrice());
         product.setImgUrl(productDTO.getImgUrl());
     }
+
+
 
 
 
