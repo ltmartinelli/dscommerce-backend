@@ -2,7 +2,6 @@ package com.devsuperior.dscommerce.dto;
 
 import com.devsuperior.dscommerce.entities.Payment;
 
-import javax.persistence.Column;
 import java.time.Instant;
 
 public class PaymentDTO {

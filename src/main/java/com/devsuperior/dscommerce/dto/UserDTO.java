@@ -3,7 +3,6 @@ package com.devsuperior.dscommerce.dto;
 import com.devsuperior.dscommerce.entities.User;
 import org.springframework.security.core.GrantedAuthority;
 
-import javax.persistence.Column;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
