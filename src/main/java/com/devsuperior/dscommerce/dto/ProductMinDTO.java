@@ -24,7 +24,6 @@ public class ProductMinDTO {
     }
 
 
-
     public Long getId() {
         return id;
     }

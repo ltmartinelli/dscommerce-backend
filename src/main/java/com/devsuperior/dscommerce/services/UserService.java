@@ -29,7 +29,8 @@ public class UserService implements UserDetailsService {
     }
 
     protected User authenticated() {
-        try{String username = SecurityContextHolder.getContext().getAuthentication().getName();
+        try {
+            String username = SecurityContextHolder.getContext().getAuthentication().getName();
             return repository.findByEmail(username);
         } catch (Exception e) {
             throw new UsernameNotFoundException("Invalid User");

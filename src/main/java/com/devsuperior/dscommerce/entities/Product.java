@@ -96,6 +96,7 @@ public class Product {
     public Set<OrderItem> getItems() {
         return items;
     }
+
     public List<Order> getOrders() {
         return items.stream().map(x -> x.getOrder()).toList();
     }
