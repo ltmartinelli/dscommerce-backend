@@ -86,8 +86,18 @@ public class User implements UserDetails {
         this.birthDate = birthDate;
     }
 
+    public boolean hasRole(String roleName) {
+        for (Role role : roles) {
+            if (role.getAuthority().equals(roleName)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+
     @Override
-    public Collection< ? extends GrantedAuthority> getAuthorities() {
+    public Collection<? extends GrantedAuthority> getAuthorities() {
         return roles;
     }
 
