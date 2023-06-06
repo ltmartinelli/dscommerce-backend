@@ -1,7 +1,7 @@
 # DSCOMMERCE
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/ltmartinelli/dscommerce-backend/blob/main/LICENSE)
 ## Sobre o Projeto
-DSCommerce é uma aplicação full stack web construída como parte do curso **Formação Desenvolvedor Moderno**, oferecido pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
+DSCommerce é uma aplicação full stack web construída como parte do curso **Formação Desenvolvedor Moderno**, oferecido pela [DevSuperior](https://devsuperior.com.br "Site da DevSuperior").
 
 A aplicação consiste em um protótipo de sistema de comércio digital, incluindo um modelo de domínio abrangendo diferentes tipos de relacionamentos entre entidades, operações de CRUD e controle de acesso, simulando fluxos de caso de uso de um e-commerce. Algumas das operações que podem ser realizadas no sistema incluem:
 - Consultar catálogo de produtos e pesquisar produtos por nome
