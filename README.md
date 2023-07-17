@@ -21,7 +21,7 @@ A aplicação consiste em um protótipo de sistema de comércio digital, incluin
 - Java
 - Spring Boot
 - JPA / Hibernate
-- Maven
+- PostgreSQL
 - JWT
 - OAuth2
 ## Front end
